@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fade",
+				"fadeInUp"
+			],
+			[
 				"jc",
 				"jcsa	(Emmet.sublime-settings)"
 			],
@@ -244,42 +248,18 @@
 	"buffers":
 	[
 		{
-			"file": "less/content-block-2.less",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 719,
+				"buffer_size": 15095,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "less/content-block-10.less",
+			"file": "less/custom.less",
 			"settings":
 			{
-				"buffer_size": 256,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/content-block-6.less",
-			"settings":
-			{
-				"buffer_size": 227,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 51785,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 2324,
+				"buffer_size": 6514,
 				"line_ending": "Unix"
 			}
 		}
@@ -292,12 +272,16 @@
 	"command_palette":
 	{
 		"height": 367.0,
-		"last_filter": "",
+		"last_filter": "comp",
 		"selected_items":
 		[
 			[
 				"comp",
 				"Format CSS: Compact"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"exp",
@@ -370,10 +354,6 @@
 			[
 				"reti",
 				"Snippet: retina"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"hyper",
@@ -522,21 +502,24 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Vost/js/scripts.js",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-2.less",
+		"/Applications/MAMP/htdocs/Vost/less/animation.less",
+		"/Applications/MAMP/htdocs/Vost/style.css",
+		"/Applications/MAMP/htdocs/Vost/less/main.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-1.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-6.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-10.less",
 		"/Applications/MAMP/htdocs/Vost/index.html",
 		"/Users/dorosh/Desktop/validation-form.js",
 		"/Applications/MAMP/htdocs/Vost/less/footer.less",
 		"/Applications/MAMP/htdocs/Vost/less/custom.less",
-		"/Applications/MAMP/htdocs/Vost/less/content-block-6.less",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
-		"/Applications/MAMP/htdocs/Vost/less/content-block-2.less",
-		"/Applications/MAMP/htdocs/Vost/js/scripts.js",
 		"/Applications/MAMP/htdocs/Vost/less/header.less",
-		"/Applications/MAMP/htdocs/Vost/less/content-block-1.less",
 		"/Applications/MAMP/htdocs/Vost/less/variables.less",
 		"/Applications/MAMP/htdocs/Vost/less/jumbotron.less",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-8.less",
-		"/Applications/MAMP/htdocs/Vost/style.css",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-7.less",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-9.less",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-5.less",
@@ -551,9 +534,7 @@
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile.sublime-snippet",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/mark-css.sublime-macro",
-		"/Applications/MAMP/htdocs/Vost/less/content-block-10.less",
 		"/Applications/MAMP/htdocs/Vost/less/fonts.less",
-		"/Applications/MAMP/htdocs/Vost/less/main.less",
 		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/ECAF5684-636A-407A-A9AB-1F31E8E80512/example.css",
 		"/Applications/MAMP/htdocs/Vost/less/content-block-8",
 		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -648,8 +629,7 @@
 		"/Applications/MAMP/htdocs/wordpress.local/public_html/!sftp-config.json",
 		"/Users/dorosh/Dropbox/Klim/Front end/default GC/Custom primeg/less/variables.less",
 		"/Applications/MAMP/htdocs/opesvista.com/tmpl/confirm_registration.tpl",
-		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.f0FLsV/0/stylesheet.css",
-		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.W7hpeI/0/stylesheet.css"
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.f0FLsV/0/stylesheet.css"
 	],
 	"find":
 	{
@@ -671,6 +651,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fadeInUp",
+			"scroll-animate",
 			"AnimationName",
 			"18",
 			"-webkit-animation: AnimationName 18s ease infinite;",
@@ -796,9 +778,7 @@
 			"ease",
 			"unitlessProperties",
 			"valueSeparator",
-			"unitlessProperties",
-			"Ваш",
-			"44"
+			"unitlessProperties"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -830,25 +810,62 @@
 			[
 				{
 					"buffer": 0,
-					"file": "less/content-block-2.less",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 719,
+						"buffer_size": 15095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								377,
-								233
+								9811,
+								9811
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "a53009ed",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/custom.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5902,
+								5902
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "less",
-							"buffer_scroll_name": "0720f9ed",
+							"buffer_scroll_name": "999223e5",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -858,155 +875,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "less/content-block-10.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "3d556732",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": "true",
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "less/content-block-6.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "9c8c28ff",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": "true",
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 51785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7549,
-								7549
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "css",
-							"buffer_scroll_name": "fad6bbf5",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": "true",
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6235.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1947,
-								1947
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "4d69b9bb",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": "true",
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
+						"translation.y": 5691.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1027,11 +906,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1063,6 +949,30 @@
 		"selected_items":
 		[
 			[
+				"sty",
+				"style.css"
+			],
+			[
+				"a",
+				"less/animation.less"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"2",
+				"less/content-block-2.less"
+			],
+			[
+				"1",
+				"less/content-block-1.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
 				"in",
 				"index.html"
 			],
@@ -1075,16 +985,8 @@
 				"less/footer.less"
 			],
 			[
-				"cu",
-				"less/custom.less"
-			],
-			[
 				"10",
 				"less/content-block-10.less"
-			],
-			[
-				"2",
-				"less/content-block-2.less"
 			],
 			[
 				"6",
@@ -1093,10 +995,6 @@
 			[
 				"sc",
 				"js/scripts.js"
-			],
-			[
-				"1",
-				"less/content-block-1.less"
 			],
 			[
 				"he",
@@ -1139,10 +1037,6 @@
 				"less/content-block-3.less"
 			],
 			[
-				"sty",
-				"style.css"
-			],
-			[
 				"styl",
 				"style.css"
 			],
@@ -1169,10 +1063,6 @@
 			[
 				"co",
 				"less/content-block-10.less"
-			],
-			[
-				"ma",
-				"less/main.less"
 			],
 			[
 				"c",
@@ -1561,7 +1451,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/Ent/Ent.sublime-project"
+				"/Applications/MAMP/htdocs/wordpress.local/wordpress.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1582,7 +1472,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":

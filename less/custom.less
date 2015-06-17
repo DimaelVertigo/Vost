@@ -332,5 +332,48 @@ html, body {
 		height: 579px;
 	}
 }
+
+// Animate scroll slyles
+.content-block-1,
+.content-block-2__logo,
+.title--content-block-2,
+.content-block-3,
+.content-block-4,
+.content-block-5__picture,
+.content-block-5__lists,
+.title--content-block-6,
+.content-block-7 {
+	@media @desktop {
+		opacity: 0;
+	}
+}
+.fadeInUp {
+	@media @desktop {
+		animation-duration: 1s; 
+		animation-fill-mode: both; 
+		animation-name: fadeInUp; 
+	}
+}
+.fadeInLeft { 
+    @media @desktop {
+    	animation-duration: 1s; 
+    	animation-fill-mode: both; 
+    	animation-name: fadeInLeft;
+    }
+} 
+.fadeInRight { 
+    @media @desktop {
+    	animation-name: fadeInRight; 
+    	animation-duration: 1s; 
+    	animation-fill-mode: both; 
+    }
+}
+.rotateIn { 
+	@media @desktop {
+		animation-name: rotateIn; 
+		animation-duration: 1s; 
+		animation-fill-mode: both;
+	}
+}
 /*-----  End of Custom styles  ------*/
 
