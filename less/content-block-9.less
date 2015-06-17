@@ -1,0 +1,128 @@
+.content-block-9 {
+	height: 870px;
+	width: 100%;
+	position: relative;
+	&__text-wrap {
+		width: 100%;
+		height: 264px;
+		opacity: .9;
+		background-color: rgba(28,9,157,.84);
+		position: absolute;
+		bottom: 0;
+		z-index: 2;
+	}
+}
+#content-block-9__nav {
+	height: 14px;
+	position: relative;
+	width: 72px;
+	z-index: 5;
+	float: right;
+	bottom: 196px;
+}
+#content-block-9__nav a {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid  #fff;
+	margin-left: 3px;
+	margin-right: 3px;
+	.slow;
+}
+#content-block-9__nav a.activeSlide {
+	margin-top: -2px;
+	width: 15px;
+	height: 15px;
+	border-radius: 8px;
+	border: 2px solid  #fd4d6b;
+	background-color: transparent;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.promo-slider {
+	width: 100%;
+	&__slide {
+		width: 100%;
+		height: 855px;
+	}
+	&__logo {
+		background: url(img/mvideo.png) no-repeat;
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		margin-left: -107px;
+		width: 214px;
+		height: 87px;
+		@media
+			only screen and (-webkit-min-device-pixel-ratio: 2),
+			only screen and (   min--moz-device-pixel-ratio: 2),
+			only screen and (     -o-min-device-pixel-ratio: 2/1),
+			only screen and (        min-device-pixel-ratio: 2),
+			only screen and (                min-resolution: 192dpi),
+			only screen and (                min-resolution: 2dppx) {
+				background: url(img/mvideo@2x.png) no-repeat;
+				background-size: 214px 87px;
+		}
+	}
+	&__text {
+		color: #fff;
+		width: 880px;
+		
+		text-align: center;
+		align-self: flex-end;
+		z-index: 3;
+		padding-bottom: 100px;
+		@media @mobile {
+			font-size: 20px;
+		}
+		@media @smartphone {
+			font-size: 20px;
+		}
+		@media @tablet {
+			font-size: 20px;
+		}
+		@media @desktop {
+			font: 16px/25px @ff-r;
+		}	
+	}
+}
+.promo-slider-slide {
+	width: 100%;
+	height: 870px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	&::before {
+	    content: '';
+	    display: block;
+	    position: absolute;
+	    width: 100%;
+	    height: 264px;
+	    opacity: .9;
+	    background-color: rgba(28,9,157,.84);
+	    position: absolute;
+	    bottom: 0;
+	    z-index: 2;
+	    left: 0;
+	}
+	&--1 {
+		background: url(img/promo.jpg) no-repeat center;
+		background-size: cover;
+	}
+	&--2 {
+		background: url(img/promo.jpg) no-repeat center;
+		background-size: cover;
+	}
+	&--3 {
+		background: url(img/promo.jpg) no-repeat center;
+		background-size: cover;
+	}
+	&--4 {
+		background: url(img/promo.jpg) no-repeat center;
+		background-size: cover;
+	}
+}

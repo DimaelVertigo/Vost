@@ -1,0 +1,113 @@
+/*============================
+=            content-block-1            =
+============================*/
+.content-block-1 {
+	margin-bottom: 152px;
+}
+.content-block-1-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	@media @desktop {
+		opacity: 0;
+	}
+	&__item {
+		float: left;
+	}
+	&--animate {
+		@media @desktop {
+			-webkit-animation-duration: 1s; 
+			animation-duration: 1s; 
+			-webkit-animation-fill-mode: both; 
+			animation-fill-mode: both; 
+			-webkit-animation-name: fadeInUp; 
+			animation-name: fadeInUp; 
+			@-webkit-keyframes fadeInUp {
+				0% { opacity: 0; -webkit-transform: translateY(20px); }
+				100% { opacity: 1; -webkit-transform: translateY(0); }
+			}
+			@keyframes fadeInUp {
+				0% { opacity: 0; transform: translateY(20px); }
+				100% { opacity: 1; transform: translateY(0); }
+			}
+		}
+	}
+}
+.content-block-1-list-item {
+	padding-bottom: 40px;
+	margin-bottom: 37px;
+	@media @mobile {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	@media @smartphone {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	@media @tablet {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		&:nth-child(-n+4) {
+			border-bottom: 1px dashed @c-border;
+		}
+	}
+	@media @desktop {
+		width: 350px;
+		padding-right: 33px;
+		&:nth-child(-n+3) {
+			border-bottom: 1px dashed @c-border;
+		}
+		&:nth-child(n+4) {
+			margin-bottom: 0;
+		}
+	}
+	&__header {
+		position: relative;
+		height: 50px;
+		margin-bottom: 20px;
+		@media @mobile {
+			font: 30px @ff-b;
+		}
+		@media @smartphone {
+			font: 30px @ff-b;
+			margin-bottom: 30px;
+		}
+		@media @tablet {
+			font: 30px @ff-b;
+			margin-bottom: 30px;
+		}
+		@media @desktop {
+			font: 19px @ff-b;
+		}	
+		&::before {
+		    content: '';
+		    margin-right: 23px;
+		    display: block;
+		    background: url(img/point.png) no-repeat;
+		    float: left;
+		    width: 51px;
+		    height: 50px;
+		    @media @retina {
+	    		background: url(img/point@2x.png) no-repeat;
+	    		background-size: 51px 50px;
+		    }
+		}
+	}
+	&__content {
+		@media @mobile {
+			font-size: 20px;
+		}
+		@media @smartphone {
+			font-size: 20px;
+		}
+		@media @tablet {
+			font-size: 20px;
+		}
+		@media @desktop {
+			font-size: 16px;
+		}	
+	}
+}

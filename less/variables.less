@@ -1,0 +1,35 @@
+/*=================================
+=            Variables            =
+=================================*/
+
+// Animations
+.slow (@sec:.2s) {
+	transition: all @sec ease-in-out;
+}
+
+// Fonts
+@ff-r: 'proxima_nova_rgregular';
+@ff-b: 'proxima_nova_rgbold';
+
+// Colors
+@c-link: #79c8dd;
+@c-main: #2a263f;
+@c-title: #2a2736;
+@c-blue: #1c099d;
+@c-border: rgba(42,38,63,.2);
+@c-gray: #ededed;
+@c-red: #ff1a40;
+
+//Media Queries
+@mobile:      ~"only screen and (min-device-width : 320px) and (max-device-width : 479px)";
+@smartphone:  ~"only screen and (min-width: 480px) and (max-width: 766px)";
+@tablet:      ~"only screen and (min-width: 767px) and (max-width: 1199px)";
+@desktop:     ~"only screen and (min-width: 1200px)";
+@retina:      ~"only screen and (-webkit-min-device-pixel-ratio: 2),
+		    	only screen and (   min--moz-device-pixel-ratio: 2),
+		    	only screen and (     -o-min-device-pixel-ratio: 2/1),
+		    	only screen and (        min-device-pixel-ratio: 2),
+		    	only screen and (                min-resolution: 192dpi),
+		    	only screen and (                min-resolution: 2dppx)";
+/*-----  End of Variables  ------*/
+

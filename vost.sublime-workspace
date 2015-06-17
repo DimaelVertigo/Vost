@@ -1,0 +1,1591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jc",
+				"jcsa	(Emmet.sublime-settings)"
+			],
+			[
+				"ma",
+				"map2.jpg	w:799 h:438"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"log",
+				"logo3.png	w:156 h:41"
+			],
+			[
+				"title__",
+				"title__logo	(index.html)"
+			],
+			[
+				"ada",
+				"adaptive	media-adaptive"
+			],
+			[
+				"tab",
+				"tablet	media-tablet"
+			],
+			[
+				"con",
+				"content-block-6.less"
+			],
+			[
+				"content",
+				"content-block-2.less"
+			],
+			[
+				"v",
+				"mvideo.png	w:214 h:87"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"lo",
+				"logo2.png	w:186 h:49"
+			],
+			[
+				"pl",
+				"pl3.png	w:1600 h:1074"
+			],
+			[
+				"s",
+				"jquery.li-scroller.1.0.js"
+			],
+			[
+				"tp",
+				"tpl_wrap"
+			],
+			[
+				"su",
+				"support-logo.png	w:105 h:101"
+			],
+			[
+				"de",
+				"deposit.less"
+			],
+			[
+				"depos",
+				"depostit.less"
+			],
+			[
+				"cle",
+				"clear"
+			],
+			[
+				"sta",
+				"stat.jpg	w:1400 h:267"
+			],
+			[
+				"db",
+				"d-b	display: block;"
+			],
+			[
+				"glo",
+				"global-stat.png	w:1400 h:960"
+			],
+			[
+				"por",
+				"pos-r	position: relative;"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fo",
+				"fonts.less"
+			],
+			[
+				"redi",
+				"redirect-page.less"
+			],
+			[
+				"sign",
+				"signup.less"
+			],
+			[
+				"inne",
+				"inners.less"
+			],
+			[
+				"impo",
+				"@import	@import url(${0});"
+			],
+			[
+				"foo",
+				"footer.less"
+			],
+			[
+				"head",
+				"header.less"
+			],
+			[
+				"res",
+				"reset.less"
+			],
+			[
+				"main",
+				"main.less"
+			],
+			[
+				"ba",
+				"ba	css-background"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"acc",
+				"account.less"
+			],
+			[
+				"us",
+				"user-navigation.less"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ic",
+				"icon11.png	w:202 h:217"
+			],
+			[
+				"p",
+				"p4.png	w:165 h:53"
+			],
+			[
+				"ico",
+				"icon3.png	w:60 h:52"
+			],
+			[
+				"icon1",
+				"icon11.png	w:236 h:236"
+			],
+			[
+				"deco",
+				"decore2.png	w:54 h:20"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"tal",
+				"table-cell"
+			],
+			[
+				"ab",
+				"aboutus"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"ban",
+				"banner-wrap.jpg	w:1200 h:773"
+			],
+			[
+				"icon",
+				"icon14.png	w:114 h:114"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"3",
+				"trf-t3	transform: translate3d(${1:tx}, ${2:ty}, ${3:tz});"
+			],
+			[
+				"mar",
+				"mark2.png	w:52 h:52"
+			],
+			[
+				"ho",
+				"hover	css-hover"
+			],
+			[
+				"j",
+				"banner.jpg	w:917 h:601"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/content-block-2.less",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/content-block-10.less",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/content-block-6.less",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 51785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 2324,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"comp",
+				"Format CSS: Compact"
+			],
+			[
+				"exp",
+				"Format CSS: Expanded"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snippe",
+				"Snippet: markup"
+			],
+			[
+				"sma",
+				"Snippet: smartphone"
+			],
+			[
+				"iphon",
+				"Snippet: iphone 4"
+			],
+			[
+				"ipho",
+				"Snippet: iphone 4"
+			],
+			[
+				"desk",
+				"Snippet: desktop & laptop"
+			],
+			[
+				"iph",
+				"Snippet: iphone 4"
+			],
+			[
+				"lands",
+				"Snippet: landscape"
+			],
+			[
+				"ipa",
+				"Snippet: ipad"
+			],
+			[
+				"iphone",
+				"Snippet: iphone 4"
+			],
+			[
+				"smart",
+				"Snippet: smartphone"
+			],
+			[
+				"comb",
+				"Run CSScomb"
+			],
+			[
+				"smar",
+				"Snippet: smartphone"
+			],
+			[
+				"ipad l",
+				"Snippet: ipad landscape"
+			],
+			[
+				"desktop",
+				"Snippet: desktop & laptop"
+			],
+			[
+				"ipad",
+				"Snippet: ipad"
+			],
+			[
+				"reti",
+				"Snippet: retina"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"hyper",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"hype",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Single-line block comment"
+			],
+			[
+				"cssco",
+				"Run CSScomb"
+			],
+			[
+				"compa",
+				"Format CSS: Compact"
+			],
+			[
+				"forma",
+				"Format CSS: Compact (Break Selectors)"
+			],
+			[
+				"css",
+				"Snippet: css-before"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Lookup with Google & Link"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Vost",
+		"/Applications/MAMP/htdocs/Vost/less"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/Vost/index.html",
+		"/Users/dorosh/Desktop/validation-form.js",
+		"/Applications/MAMP/htdocs/Vost/less/footer.less",
+		"/Applications/MAMP/htdocs/Vost/less/custom.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-6.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-2.less",
+		"/Applications/MAMP/htdocs/Vost/js/scripts.js",
+		"/Applications/MAMP/htdocs/Vost/less/header.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-1.less",
+		"/Applications/MAMP/htdocs/Vost/less/variables.less",
+		"/Applications/MAMP/htdocs/Vost/less/jumbotron.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-8.less",
+		"/Applications/MAMP/htdocs/Vost/style.css",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-7.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-9.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-5.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-4.less",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-3.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-adaptive.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/retina.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/css-media.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-smartphone.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-desktop.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-tablet.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/media-mobile",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/mark-css.sublime-macro",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-10.less",
+		"/Applications/MAMP/htdocs/Vost/less/fonts.less",
+		"/Applications/MAMP/htdocs/Vost/less/main.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/ECAF5684-636A-407A-A9AB-1F31E8E80512/example.css",
+		"/Applications/MAMP/htdocs/Vost/less/content-block-8",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/Vost/vost.sublime-project",
+		"/Applications/MAMP/htdocs/Vost/vost.sublime-workspace",
+		"/Applications/MAMP/htdocs/Vost/less/cb-5.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-4.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-3.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-2.less",
+		"/Applications/MAMP/htdocs/Vost/less/cb-1.less",
+		"/Applications/MAMP/htdocs/Vost/config.codekit",
+		"/Applications/MAMP/htdocs/Vost/js/jquery.parallax.js",
+		"/Applications/MAMP/htdocs/Vost/js/jquery.cycle.all.js",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.woff2",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.woff",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-reg-webfont.svg",
+		"/Applications/MAMP/htdocs/Vost/fonts/proximanova-bold-webfont.woff",
+		"/Applications/MAMP/htdocs/Vost/less/personal.less",
+		"/Applications/MAMP/htdocs/Vost/less/features.less",
+		"/Applications/MAMP/htdocs/opesvista.com/js/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/9950E2BE-F59F-4DEC-87FC-0C31682427A6/jquery.parallax.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/DB439D7C-65E7-48A6-8BE6-8AB46BD06B6D/jparallax-master.js",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.9AIslI/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.ZV0uLI/0/stylesheet.css",
+		"/Applications/MAMP/htdocs/Vost/img/svg/i1.svg",
+		"/Users/dorosh/Desktop/Vector Smart Object.svg",
+		"/Applications/MAMP/htdocs/Vost/fonts/font.css",
+		"/Applications/MAMP/htdocs/Vost/less/front-page.less",
+		"/Applications/MAMP/htdocs/Vost/less/reset.less",
+		"/Applications/MAMP/htdocs/css/style.css",
+		"/Applications/MAMP/htdocs/opesvista.com/less/style.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/home.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/footer.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/home.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/home.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/news_box.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/67779000-B429-44FE-A4DB-BB52C9B2B04C/scroll.css",
+		"/Applications/MAMP/htdocs/opesvista.com/less/main.less",
+		"/Applications/MAMP/htdocs/opesvista.com/js/jquery.li-scroller.1.0.js",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/footer.tpl",
+		"/Users/dorosh/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/opesvista.com/less/header.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/signup.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/signup.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/signup.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/login.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/73CE4EC9-2EF5-4DB8-A7AF-14F68F91AFB6/scroll.js",
+		"/Applications/MAMP/htdocs/opesvista.com/less/footer.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/support.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/support.less",
+		"/Applications/MAMP/htdocs/opesvista.com/less/inners.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/custom/aboutus.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/02B0618E-EE42-4E37-AA5A-361CA3ADDB6C/Текст поверх линии.css",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header2.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/faq.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/faq.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/4B2052FE-FB3F-4EF0-A4C3-0D29A300AAC7/scripts.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/81AC2A77-A7F4-4657-AB9B-B038D3438E0B/examle.js",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/deposit.less",
+		"/Applications/MAMP/htdocs/opesvista.com/less/variables.less",
+		"/Applications/MAMP/htdocs/opesvista.com/less/nav.less",
+		"/Applications/MAMP/htdocs/opesvista.com/less/user-page.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/account_main.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/login.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/639F48BA-534E-4182-AD90-2F7C90F451FD/jquery.parallax.css",
+		"/Applications/MAMP/htdocs/opesvista.com/js/jquery.parallax.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/0E290561-4AD7-4FE5-91F7-01794283FEB4/jparallax-master.js",
+		"/Applications/MAMP/htdocs/opesvista.com/less/fonts.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/A0D9FA86-D03A-4948-A949-39454D0E3AF2/scroll.js",
+		"/Users/dorosh/Desktop/magic-master/magic.css",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/lang/ru/index_statistic.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/index_last_withdrawals.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/index_last_deposits.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/calculator.less",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/8EF103D0-C808-41AA-B5D8-31D0B47B7BAF/global-stat.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/js/calculator.js",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/Custom primeg/less/style.less",
+		"/Users/dorosh/Desktop/zippfy_tmpl_fix-2/images/en/main.css",
+		"/Users/dorosh/Desktop/zippfy_tmpl_fix-2/tpl/en/index/index.tpl",
+		"/Users/dorosh/Desktop/zippfy_tmpl_fix-2/tpl/en/footer.tpl",
+		"/Users/dorosh/Desktop/zippfy_tmpl_fix-2/tpl/en/header.tpl",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/Custom primeg/tmpl/home.tpl",
+		"/Users/dorosh/Desktop/zippfy_tmpl_fix-2/images/en/jquery-ui-1.10.4.custom.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.12NYEr/1/header.tpl",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.12NYEr/0/index.tpl",
+		"/Users/dorosh/Desktop/index.tpl",
+		"/Applications/MAMP/htdocs/wordpress.local/lifetru/demo/lifetruistic/wp-content/themes/html5blank-stable/css/custom.css",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/!sftp-config.json",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/Custom primeg/less/variables.less",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/confirm_registration.tpl",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.f0FLsV/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.W7hpeI/0/stylesheet.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.less",
+			"*.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"AnimationName",
+			"18",
+			"-webkit-animation: AnimationName 18s ease infinite;",
+			"// \"html\": {\n		// 	\"abbreviations\": {\n		// 		\"example\": \"<div class='example' title='Custom element example'>\"\n		// 	}\n		// }",
+			"bem",
+			"bem.modifierSeparator",
+			"100%",
+			"rotate(-30deg)",
+			"transform: rotate(-30deg)",
+			"40",
+			"opacity",
+			"fadeIn",
+			"lines",
+			"fadeIn",
+			"logo3",
+			"100",
+			"light.png",
+			"slide__item",
+			"\n					only screen and (-webkit-min-device-pixel-ratio: 2),\n					only screen and (   min--moz-device-pixel-ratio: 2),\n					only screen and (     -o-min-device-pixel-ratio: 2/1),\n					only screen and (        min-device-pixel-ratio: 2),\n					only screen and (                min-resolution: 192dpi),\n					only screen and (                min-resolution: 2dppx)",
+			"8",
+			"\n			only screen and (-webkit-min-device-pixel-ratio: 2),\n			only screen and (   min--moz-device-pixel-ratio: 2),\n			only screen and (     -o-min-device-pixel-ratio: 2/1),\n			only screen and (        min-device-pixel-ratio: 2),\n			only screen and (                min-resolution: 192dpi),\n			only screen and (                min-resolution: 2dppx)",
+			"15",
+			"11",
+			"32",
+			"500",
+			"150",
+			"63",
+			"padding",
+			"center",
+			"space-around",
+			"center",
+			"justify-content",
+			"105",
+			"font: 16px @ff-r;",
+			"16",
+			"/23px",
+			"content-block-1-list-item",
+			"max-width: 470",
+			"content-block-1-list-item",
+			"only screen and (-webkit-min-device-pixel-ratio: 2),\n		only screen and (   min--moz-device-pixel-ratio: 2),\n		only screen and (     -o-min-device-pixel-ratio: 2/1),\n		only screen and (        min-device-pixel-ratio: 2),\n		only screen and (                min-resolution: 192dpi),\n		only screen and (                min-resolution: 2dppx)",
+			"img/point@2x.png",
+			"content-block-1-list-item",
+			"content-block-4-list-1",
+			"max",
+			"style",
+			"2",
+			"297",
+			"content-block-9__",
+			"12",
+			"29",
+			"div",
+			"red",
+			"div",
+			"colums",
+			"870",
+			"nav",
+			"plans_slider",
+			"10",
+			"contact-form-group",
+			"__",
+			"contact-form-group",
+			"height",
+			"png",
+			" no-repeat 11px center",
+			"no-repeat",
+			"contact-form-group__wrapper",
+			"input__",
+			"for=\"\"",
+			"div",
+			"50",
+			"407",
+			"tri",
+			"cb",
+			"content-block",
+			"-2",
+			"div",
+			"cb-4-list-1__item",
+			"list",
+			"personal",
+			"cb-2",
+			"features",
+			"div",
+			"description",
+			"perso",
+			"\n							Размещайте рекламу на рекламных плоскостях в популярных торговых точках.\n						",
+			"Охват",
+			"box__",
+			"box",
+			"section",
+			"../",
+			"parallax-layer",
+			"font: 16",
+			"fontL 16",
+			"--",
+			"__",
+			"rN",
+			"N",
+			"element",
+			"FrutigerNeueLTW1G-Thin",
+			"_W1G_",
+			"Frutiger_Neue_LT_W1G_Book",
+			"ff-book",
+			"/* Safari, Android, iOS */",
+			"/* Modern Browsers */",
+			"/* IE6-IE8 */",
+			" ",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js\"></script>\n	<script src=\"js/jquery.cycle.all.js\"></script>\n	<script src=\"js/jquery-ui-1.10.4.custom.min.js\"></script>\n	<script src=\"js/calculator.js\"></script>\n	<script src=\"js/jquery.parallax.js\"></script>\n	<script src=\"js/scripts.js\"></script>",
+			"news",
+			"news-logo",
+			"news",
+			"nes",
+			"news",
+			"center",
+			"90%",
+			"95%",
+			"ease",
+			"1s",
+			"animationFrames",
+			"50s",
+			"-webkit-animation-iteration-count",
+			"ease",
+			"animationFrames",
+			"ease",
+			"unitlessProperties",
+			"valueSeparator",
+			"unitlessProperties",
+			"Ваш",
+			"44"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"animationGradient",
+			"@retina",
+			"content-block",
+			"cb-2",
+			"cb-1",
+			"cb-2",
+			"cb-2\n	<script src=\"js/jquery.cycle.all.js\"></script>\n	<script src=\"js/jquery-ui-1.10.4.custom.min.js\"></script>\n	<script src=\"js/calculator.js\"></script>\n	<script src=\"js/jquery.li-scroller.1.0.js\"></script>\n	<script src=\"js/scripts.js\"></script>",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js\"></script>\n	<script src=\"js/jquery.cycle.all.js\"></script>\n	<script src=\"js/jquery-ui-1.10.4.custom.min.js\"></script>\n	<script src=\"js/calculator.js\"></script>\n	<script src=\"js/jquery.li-scroller.1.0.js\"></script>\n	<script src=\"js/scripts.js\"></script>",
+			"Please confirm your <b>deposit</b>:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/content-block-2.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								233
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "0720f9ed",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/content-block-10.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "3d556732",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/content-block-6.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "9c8c28ff",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7549,
+								7549
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "fad6bbf5",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6235.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1947,
+								1947
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "4d69b9bb",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Custom.tmtheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": "true",
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "vost.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"js",
+				"js/scripts.js"
+			],
+			[
+				"foo",
+				"less/footer.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"10",
+				"less/content-block-10.less"
+			],
+			[
+				"2",
+				"less/content-block-2.less"
+			],
+			[
+				"6",
+				"less/content-block-6.less"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"1",
+				"less/content-block-1.less"
+			],
+			[
+				"he",
+				"less/header.less"
+			],
+			[
+				"cus",
+				"less/custom.less"
+			],
+			[
+				"8",
+				"less/content-block-8.less"
+			],
+			[
+				"ju",
+				"less/jumbotron.less"
+			],
+			[
+				"con",
+				"less/content-block-7.less"
+			],
+			[
+				"9",
+				"less/content-block-9.less"
+			],
+			[
+				"7",
+				"less/content-block-7.less"
+			],
+			[
+				"5",
+				"less/content-block-5.less"
+			],
+			[
+				"4",
+				"less/content-block-4.less"
+			],
+			[
+				"3",
+				"less/content-block-3.less"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"ih",
+				"index.html"
+			],
+			[
+				"hea",
+				"less/header.less"
+			],
+			[
+				"fo",
+				"less/fonts.less"
+			],
+			[
+				"co",
+				"less/content-block-10.less"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"c",
+				"less/content-block-8.less"
+			],
+			[
+				"mai",
+				"less/main.less"
+			],
+			[
+				"cb",
+				"less/cb-1.less"
+			],
+			[
+				"ht",
+				"index.html"
+			],
+			[
+				"pe",
+				"less/personal.less"
+			],
+			[
+				"head",
+				"less/header.less"
+			],
+			[
+				"fe",
+				"less/features.less"
+			],
+			[
+				"f",
+				"less/fonts.less"
+			],
+			[
+				"font",
+				"less/fonts.less"
+			],
+			[
+				"less",
+				"less/header.less"
+			],
+			[
+				"htm",
+				"index.html"
+			],
+			[
+				"le",
+				"less/header.less"
+			],
+			[
+				"fon",
+				"less/fonts.less"
+			],
+			[
+				"home",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"news",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"s",
+				"less/style.less"
+			],
+			[
+				"ru/s",
+				"tmpl/lang/ru/signup.tpl"
+			],
+			[
+				"si",
+				"less/signup.less"
+			],
+			[
+				"sign",
+				"tmpl/signup.tpl"
+			],
+			[
+				"ru/si",
+				"tmpl/lang/ru/signup.tpl"
+			],
+			[
+				"ru/logi",
+				"tmpl/lang/ru/login.tpl"
+			],
+			[
+				"ru/ho",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"ab",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"sup",
+				"less/support.less"
+			],
+			[
+				"fa",
+				"tmpl/faq.tpl"
+			],
+			[
+				"su",
+				"tmpl/support.tpl"
+			],
+			[
+				"inn",
+				"less/inners.less"
+			],
+			[
+				"faq",
+				"tmpl/faq.tpl"
+			],
+			[
+				"depos",
+				"less/deposit.less"
+			],
+			[
+				"de",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"us",
+				"less/user-page.less"
+			],
+			[
+				"acc",
+				"tmpl/account_main.tpl"
+			],
+			[
+				"na",
+				"less/nav.less"
+			],
+			[
+				"login",
+				"tmpl/login.tpl"
+			],
+			[
+				"footer",
+				"less/footer.less"
+			],
+			[
+				"main",
+				"less/main.less"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"new",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"stat",
+				"tmpl/lang/ru/index_statistic.tpl"
+			],
+			[
+				"inde",
+				"tmpl/index_last_withdrawals.tpl"
+			],
+			[
+				"ind",
+				"tmpl/index_last_deposits.tpl"
+			],
+			[
+				"ca",
+				"js/calculator.js"
+			],
+			[
+				"hom",
+				"less/home.less"
+			],
+			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"res",
+				"less/reset.css"
+			],
+			[
+				"use",
+				"less/user-navigation.less"
+			],
+			[
+				"mix",
+				"less/mixins.less"
+			],
+			[
+				"mi",
+				"less/mixins.less"
+			],
+			[
+				"ho",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"les",
+				"less/style.less"
+			],
+			[
+				"ru",
+				"tmpl/rules.tpl"
+			],
+			[
+				"sig",
+				"tmpl/signup.tpl"
+			],
+			[
+				"refe",
+				"tmpl/custom/referallinks.tpl"
+			],
+			[
+				"logi",
+				"tmpl/login.tpl"
+			],
+			[
+				"rat",
+				"tmpl/rateus.tpl"
+			],
+			[
+				"index",
+				"tmpl/index_last_withdrawals.tpl"
+			],
+			[
+				"ru/fo",
+				"tmpl/lang/ru/footer.tpl"
+			],
+			[
+				"ru/ac",
+				"tmpl/lang/ru/account_main.tpl"
+			],
+			[
+				"ac",
+				"tmpl/account_main.tpl"
+			],
+			[
+				"ru/hea",
+				"tmpl/lang/ru/header.tpl"
+			],
+			[
+				"ru/home",
+				"tmpl/lang/ru/home.tpl"
+			],
+			[
+				"scri",
+				"js/scripts.js"
+			],
+			[
+				"deposit",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"cha",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"with",
+				"tmpl/withdrawal.tpl"
+			],
+			[
+				"com",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"cs",
+				"css/style.css"
+			],
+			[
+				"depo",
+				"tmpl/deposit_history.tpl"
+			],
+			[
+				"ear",
+				"tmpl/earning_history.tpl"
+			],
+			[
+				"deposi",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"abo",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"comp",
+				"tmpl/change_compound.tpl"
+			],
+			[
+				"ea",
+				"tmpl/earning_history.tpl"
+			],
+			[
+				"edit",
+				"tmpl/edit_account.tpl"
+			],
+			[
+				"suppo",
+				"tmpl/support.tpl"
+			],
+			[
+				"edi",
+				"tmpl/edit_account.tpl"
+			],
+			[
+				"se",
+				"tmpl/security.tpl"
+			],
+			[
+				"abu",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"deposit.co",
+				"tmpl/deposit.confirm.tpl"
+			],
+			[
+				"supp",
+				"tmpl/support.tpl"
+			],
+			[
+				"support",
+				"tmpl/support.tpl"
+			],
+			[
+				"foot",
+				"tmpl/footer.tpl"
+			],
+			[
+				"cal",
+				"js/calculator.js"
+			],
+			[
+				"ne",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"inves",
+				"tmpl/custom/invest.tpl"
+			],
+			[
+				"inve",
+				"tmpl/lang/ru/custom/invest.tpl"
+			],
+			[
+				"red",
+				"tmpl/login_redirect.tpl"
+			],
+			[
+				"actio",
+				"tmpl/lang/ru/custom/actions.tpl"
+			],
+			[
+				"acti",
+				"tmpl/custom/actions.tpl"
+			],
+			[
+				"ana",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"d",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"anal",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"refer",
+				"tmpl/referal.links.tpl"
+			],
+			[
+				"acco",
+				"tmpl/account_main.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/Ent/Ent.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

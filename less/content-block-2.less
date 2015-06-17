@@ -1,0 +1,29 @@
+/*================================
+=            content-block-2            =
+================================*/
+.content-block-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 266px;
+	position: relative;
+	background: linear-gradient(0deg, @c-blue, lighten(@c-blue, 10%));
+	background-size: 400% 400%;
+	animation: animationGradient 18s ease infinite;
+
+@keyframes animationGradient { 
+    0%{background-position:68% 0%}
+    50%{background-position:33% 100%}
+    100%{background-position:68% 0%}
+}
+	&__logo {
+		background: url(img/logo3.png) no-repeat;
+		width: 156px;
+		height: 41px;
+		@media @retina {
+			background: url(img/logo3@2x.png) no-repeat;
+			background-size: 156px 41px;
+		}
+	}
+}
+

@@ -1,0 +1,144 @@
+/*==============================
+=            FOOTER            =
+==============================*/
+.site-footer {
+	background-color: #ededed;
+	display: flex;
+	flex-direction: column;
+	@media @desktop {
+		justify-content: center;
+		flex-direction: row;
+	}	
+	&__left {
+		width: 50%;
+		@media @mobile {
+			width: 100%;
+			order: 2;
+		}
+		@media @smartphone {
+			width: 100%;
+			order: 2;
+		}
+		@media @tablet {
+			width: 100%;
+			order: 2;
+		}
+	}
+	&__right {
+		width: 100%;
+		background: url(img/map2.jpg) no-repeat;
+		background-size: cover;
+		@media @mobile {
+			height: 200px;
+			order: 1;
+		}
+		@media @smartphone {
+			height: 200px;
+			order: 1;
+		}
+		@media @tablet {
+			height: 200px;
+			order: 1;
+		}
+		@media @desktop {
+			width: 50%;
+		}
+	}
+}
+.footer-columns {
+	padding-right: 43px;
+	padding-top: 66px;
+	@media @mobile {
+		padding-bottom: 40px;
+		padding-right: 0;
+	}
+	@media @smartphone {
+		padding-bottom: 40px;
+		padding-right: 0;
+	}
+	@media @tablet {
+		padding-bottom: 40px;
+		padding-right: 0;
+	}
+	@media @desktop {
+		float: right;
+	}	
+	&__list {
+		margin-top: 29px;
+		display: flex;
+		justify-content: center;
+	}
+	&__title {
+		text-align: center;
+		color: @c-blue;
+		font: 46px @ff-r;
+	}
+	&__column {
+		padding: 0 60px;
+		&:nth-child(1) {
+			border-right: 2px dotted #7a6f63;
+		}
+	}
+	&__address {
+		font: 16px/23px @ff-r;
+	}
+	&__question {
+		margin-top: 16px;
+		text-align: center;
+	}
+	&__btn {
+		margin: 8px auto 0;
+		display: block;
+		color: @c-blue;
+		text-decoration: none;
+		text-align: center;
+		font-size: 16px;
+		line-height: 37px;
+		border: 2px dotted @c-red;
+		width: 172px;
+		height: 37px;
+		border-radius: 18px;
+		background-clip: padding-box;
+		background-color: transparent;
+		position: relative;
+		&::before {
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    border: 2px dotted #dbdbdb;
+		    width: 168px;
+		    height: 33px;
+		    top: 2px;
+		    left: -2px;
+		    border-radius: 18px;
+		}
+	}
+	&__order {
+		&:nth-child(n+2) {
+			margin-top: 17px;
+		}
+	}
+}
+.created-by {
+	margin-top: 47px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	&__text {
+		color: #766b5f;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	&__heartbeat {
+		display: block;
+		background: url(img/hb.png) no-repeat;
+		width: 80px;
+		height: 23px;
+		@media @retina {
+			background: url(img/hb@2x.png) no-repeat;
+			background-size: 80px 23px;
+		}
+	}
+}
+/*-----  End of FOOTER  ------*/
+

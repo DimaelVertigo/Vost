@@ -1,0 +1,72 @@
+/*==============================
+=            HEADER            =
+==============================*/
+.site-header {
+	width: 100%;
+	position: relative;
+	z-index: 5;
+	.wrapper {
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-items: center;
+		height: 89px;
+	}
+}
+.site-header__logo {
+	display: block;
+	background: url(img/logo.png) no-repeat;
+	width: 102px;
+	height: 27px;
+	align-self: center;
+	flex: 1;
+	@media
+		@retina {
+			background: url(img/logo@2x.png) no-repeat;
+			background-size: 102px 27px;
+	}
+}
+.header-navigation {
+	flex-grow: 0;
+	flex-shrink: 0;
+	align-self: center;
+	&__item {
+		float: left;
+		a {
+			float: left;
+			font: 15px @ff-r;
+			text-decoration: none;
+			text-align: center;
+			color: #fff;
+			padding: 0 40px;
+			.slow;
+			&:hover, &:focus {
+			    color: @c-red;
+			}
+		}
+	}
+}
+.language {
+	align-self: center;
+	margin-left: 40px;
+	&__item {
+		float: left;
+		&:nth-child(1) {
+			a {
+				background-color: #fff;
+				color: #000;
+			}
+		}
+	}
+	a {
+		padding: 0 5px;
+		display: block;
+		font: 12px/23px @ff-r;
+		text-decoration: none;
+		text-align: center;
+		color: #fff;
+		border: 2px solid #fff;
+	}
+}
+/*____-  End of HEADER  ______*/
