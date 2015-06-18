@@ -127,7 +127,7 @@ $(document).ready(function() {
 				icon: image
 			});
 			var infowindow = new google.maps.InfoWindow({
-				content: 'Наша рекламная сеть'
+				content: 'point1'
 			});
 			marker.setMap(map);
 			infowindow.open(map, marker);
@@ -141,6 +141,42 @@ $(document).ready(function() {
 				var center = map.getCenter();
 				google.maps.event.trigger(map, 'resize');
 				map.setCenter(center);
+			});
+		}
+	});
+	// Footer map
+	$(function() {
+		var footerMap;
+		image = new google.maps.MarkerImage("img/map-point1@2x.png", null, null, null, new google.maps.Size(24, 44));
+
+		function initMap() {
+			var myLatLng = new google.maps.LatLng(41.717213, 44.788041);
+			var mapOptions = {
+				center: myLatLng,
+				zoom: 17,
+				scrollwheel: false,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			footerMap = new google.maps.Map(document.getElementById('footer__map'), mapOptions);
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				icon: image
+			});
+			var infowindow = new google.maps.InfoWindow({
+				content: 'point1'
+			});
+			marker.setMap(footerMap);
+			infowindow.open(footerMap, marker);
+			google.maps.event.addListener(marker, 'click', (function() {
+				infowindow.open(footerMap, marker);
+			}));
+		}
+		if (document.getElementById('footer__map')) {
+			google.maps.event.addDomListener(window, 'load', initMap);
+			google.maps.event.addDomListener(window, 'resize', function() {
+				var center = footerMap.getCenter();
+				google.maps.event.trigger(footerMap, 'resize');
+				footerMap.setCenter(center);
 			});
 		}
 	});
