@@ -3,12 +3,14 @@
 ============================*/
 .content-block-1 {
 	margin-bottom: 152px;
+	@media @mobile {
+		margin-bottom: 64px;
+	}
 }
 .content-block-1-list {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	
 	&__item {
 		float: left;
 	}
@@ -18,18 +20,9 @@
 	margin-bottom: 37px;
 	@media @mobile {
 		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	@media @smartphone {
-		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
 	}
 	@media @tablet {
 		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
 		&:nth-child(-n+4) {
 			border-bottom: 1px dashed @c-border;
 		}
@@ -46,21 +39,17 @@
 	}
 	&__header {
 		position: relative;
-		height: 50px;
 		margin-bottom: 20px;
+		font: 19px @ff-b;
 		@media @mobile {
-			font: 30px @ff-b;
-		}
-		@media @smartphone {
-			font: 30px @ff-b;
-			margin-bottom: 30px;
+			font-size: 22px;
 		}
 		@media @tablet {
-			font: 30px @ff-b;
 			margin-bottom: 30px;
 		}
 		@media @desktop {
 			font: 19px @ff-b;
+			height: 50px;
 		}	
 		&::before {
 		    content: '';
@@ -74,14 +63,16 @@
 	    		background: url(img/point@2x.png) no-repeat;
 	    		background-size: 51px 50px;
 		    }
+		    @media @mobile {
+		    	background-size: 25px 25px;
+		    	margin-right: 10px;
+		    	width: 25px;
+		    }
 		}
 	}
 	&__content {
 		@media @mobile {
-			font-size: 20px;
-		}
-		@media @smartphone {
-			font-size: 20px;
+			font-size: 16px;
 		}
 		@media @tablet {
 			font-size: 20px;

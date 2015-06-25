@@ -26,11 +26,6 @@ html, body {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	@media @smartphone {
-		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
 	@media @tablet {
 		width: 100%;
 		padding-left: 15px;
@@ -51,6 +46,9 @@ html, body {
 	}
 	&--contact-form {
 		background: url(img/vost.png) no-repeat center, #ededed;
+		@media @mobile {
+			background: none;
+		}
 	}
 }
 .btn {
@@ -69,6 +67,13 @@ html, body {
 	border: none;
 	position: relative;
 	overflow: hidden;
+	@media @mobile {
+		padding: 0 10px;
+		width: 100%;
+		margin: 0 auto;
+		height: 60px;
+		font: 22px/60px @ff-b;
+	}
 	&::before {
 		content: '';
 		display: block;
@@ -124,6 +129,9 @@ html, body {
 	}
 	&--contact-form {
 		margin-top: 30px;
+		@media @mobile {
+			margin-bottom: 30px;
+		}
 	}
 	&--content-block-10 {
 		position: relative;
@@ -132,14 +140,9 @@ html, body {
 }
 .title {
 	text-align: center;
+	font: 50px @ff-r;
 	@media @mobile {
-		font: 40px @ff-r;
-	}
-	@media @smartphone {
-		font: 40px @ff-r;
-	}
-	@media @tablet {
-		font: 50px @ff-r;
+		font: 23px @ff-r;
 	}
 	@media @desktop {
 		font: 40px @ff-r;
@@ -162,6 +165,9 @@ html, body {
 	&--content-block-6 {
 		position: relative;
 		padding-top: 83px;
+		@media @mobile {
+			padding-top: 80px;
+		}
 		&::before {
 		    content: '';
 		    display: block;
@@ -172,6 +178,9 @@ html, body {
 		    margin-left: -22px;
 		    width: 55px;
 		    height: 50px;
+		    @media @mobile {
+		    	top: 25px;
+		    }
 		    @media @retina {
 	    		background: url(img/i4@2x.png) no-repeat;
 	    		background-size: 55px 50px;
@@ -206,10 +215,7 @@ html, body {
 		}
 	}
 	@media @mobile {
-		font: 25px/35px @ff-b;
-	}
-	@media @smartphone {
-		font: 25px/35px @ff-b;
+		font: 20px @ff-b;
 	}
 	@media @tablet {
 		font: 25px @ff-b;
@@ -256,6 +262,10 @@ html, body {
 		left: 50%;
 		margin-left: -407px;
 		-webkit-transform:rotate(360deg);
+		@media @mobile {
+			border-width: 0 150px 34px 150px;
+			margin-left: -150px;
+		}
 	}
 	&--blue {
 	    border-color: #1d099d transparent transparent transparent;
@@ -274,9 +284,6 @@ html, body {
     &--content-block-5 {
 		
 		@media @mobile {
-			display: none;
-		}
-		@media @smartphone {
 			display: none;
 		}
 		@media @tablet {
@@ -298,21 +305,33 @@ html, body {
 		height: 107px;
 		top: -7px;
 		left: 212px;
+		@media @mobile {
+			display: none;
+		}
 	}
 	&--jumbotron-1 {
 		height: 492px;
 		top: 170px;
 		left: 122px;
+		@media @mobile {
+			display: none;
+		}
 	}
 	&--jumbotron-2 {
 		height: 492px;
 		top: 170px;
 		right: 122px;
+		@media @mobile {
+			display: none;
+		}
 	}
 	&--content-block-2 {
 		height: 400px;
 		bottom: -27px;
 		left: 178px;
+		@media @mobile {
+			display: none;
+		}
 	}
 	&--content-block-6 {
 		@media @desktop {

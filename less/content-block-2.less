@@ -10,6 +10,9 @@
 	background: linear-gradient(0deg, @c-blue, lighten(@c-blue, 10%));
 	background-size: 400% 400%;
 	animation: animationGradient 18s ease infinite;
+	@media @mobile {
+		height: 125px;
+	}
 	@keyframes animationGradient { 
 	    0%{background-position:68% 0%}
 	    50%{background-position:33% 100%}

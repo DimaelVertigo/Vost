@@ -3,12 +3,9 @@
 	width: 814px;
 	margin: 0 auto;
 	padding: 0 129px 104px;
-
 	@media @mobile {
-		padding-right: 60px;
-	}
-	@media @smartphone {
-		padding-right: 60px;
+		padding: 0;
+		width: 100%;
 	}
 	@media @tablet {
 		padding-right: 60px;
@@ -20,13 +17,21 @@
 .contact-form-group {
 	margin-bottom: 11px;
 	min-height: 45px;
-
+	@media @mobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	&__label {
 		font: 16px/45px @ff-b;
 		margin-right: 18px;
 		text-align: right;
 		float: left;
 		width: 108px;
+		@media @mobile {
+			margin-right: 0;
+			text-align: center;
+		}
 	}
 	&__input {
 		margin-left: 40px;
@@ -51,12 +56,8 @@
 		overflow: hidden;
 		border: 1px solid @c-border;
 		position: relative;
-
 		@media @mobile {
-			width: 364px;
-		}
-		@media @smartphone {
-			width: 364px;
+			width: 100%; 
 		}
 		@media @tablet {
 			width: 364px;
@@ -73,7 +74,6 @@
 			&::before {
 				background: url(img/i5.png) center no-repeat;
 				width: 18px;
-
 				@media @retina {
 					background: url(img/i5@2x.png) center no-repeat;
 					background-size: 18px 19px;
@@ -130,12 +130,8 @@
 		}
 		&--msg {
 			height: 223px;
-
 			@media @mobile {
-				width: 364px;
-			}
-			@media @smartphone {
-				width: 364px;
+				width: 100%;
 			}
 			@media @tablet {
 				width: 364px;

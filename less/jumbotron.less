@@ -2,14 +2,21 @@
 =            JUMBOTRON            =
 =================================*/
 .jumbotron {
-	margin-top: -89px;
 	width: 100%;
 	height: 831px;
 	overflow: hidden;
 	position: relative;
 	background: url(img/jumbotron.jpg) center no-repeat;
+	@media @mobile {
+		margin-top: -234px;
+		height: 268px;
+	}
+	@media @tablet {
+		margin-top: -175px;
+	}
 	@media @desktop {
 		background: #2a199c;
+		margin-top: -89px;
 	}	
 }
 @media @desktop {
@@ -44,6 +51,9 @@
 	justify-content: center;
 	width: 100%;
 	height: 830px;
+	@media @mobile {
+		display: none;
+	}
 	&__logo {
 		background: url(img/logo2.png) no-repeat;
 		width: 186px;
@@ -84,6 +94,9 @@
 	left: 10px!important;
 	position: absolute;
 	top: 0!important;
+	@media @mobile {
+		display: none;
+	}
 	&::before {
 	    content: '';
 	    display: block;
@@ -106,7 +119,7 @@
 		position: relative;
 		top: 395px;
 		display: block;
-		font: 26px/37px @ff-b;
+		// font: 26px/37px @ff-b;
 		background: transparent;
 		-webkit-animation-duration: 1s; 
 		animation-duration: 1s; 
@@ -115,6 +128,9 @@
 		-webkit-animation-name: fadeIn; 
 		animation-name: fadeIn;
 		animation-delay: .8s;
+		@media (min-width : 320px) and (max-width : 766px) {
+			font: 42px/37px @ff-b;
+		}
 	}
 }
 @-webkit-keyframes fadeIn { 
