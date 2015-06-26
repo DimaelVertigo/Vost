@@ -114,12 +114,15 @@
 	    -webkit-animation-name: fadeIn; 
 	    animation-name: fadeIn;
 	    animation-delay: .5s;
+	    @media @tablet {
+	    	top: 40px;
+	    }
 	}
 	&__item {
 		position: relative;
 		top: 395px;
 		display: block;
-		// font: 26px/37px @ff-b;
+		font: 26px/37px @ff-b;
 		background: transparent;
 		-webkit-animation-duration: 1s; 
 		animation-duration: 1s; 
@@ -128,9 +131,7 @@
 		-webkit-animation-name: fadeIn; 
 		animation-name: fadeIn;
 		animation-delay: .8s;
-		@media (min-width : 320px) and (max-width : 766px) {
-			font: 42px/37px @ff-b;
-		}
+		
 	}
 }
 @-webkit-keyframes fadeIn { 

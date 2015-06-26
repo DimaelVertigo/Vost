@@ -24,9 +24,11 @@
 		width: 100%;
 		position: relative;
 		&:hover, &:focus {
-		    .footer-violet {
-		    	opacity: 0;
-		    	z-index: -1;
+		    @media @desktop {
+		    	.footer-violet {
+		    		opacity: 0;
+		    		z-index: -1;
+		    	}
 		    }
 		}
 		@media @mobile {
@@ -34,47 +36,54 @@
 			order: 1;
 		}
 		@media @tablet {
-			height: 200px;
+			height: 400px;
 			order: 1;
 		}
 		@media @desktop {
 			width: 50%;
+			.footer-violet {
+			    display: block;
+			    position: absolute;
+			    width: 100%;
+			    height: 569px;
+			    background-color: rgba(28,9,157,.84);
+			    z-index: 2;
+			    .slow(.6s);
+			    top: 0;
+			    left: 0;
+			    display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    @media @mobile {
+			    	height: 200px;
+			    }
+			    @media @tablet {
+			    	height: 400px;
+			    }
+			    &__point {
+			    	.icon {
+			    		display: block;
+			    		background: url(img/map-point3.png) center no-repeat;
+			    		width: 50px;
+			    		height: 87px;
+			    		@media @retina {
+			    			background: url(img/map-point2@2x.png) center no-repeat;
+			    			background-size: 50px 87px;
+			    		}
+			    	}
+			    	.text {
+			    		margin-top: 56px;
+			    		font: 40px @ff-r;
+			    		color: #fff;
+			    		text-align: center;
+			    		b {
+			    			font-weight: bold;
+			    		}
+			    	}
+			    }
+			}
 		}
-		.footer-violet {
-		    display: block;
-		    position: absolute;
-		    width: 100%;
-		    height: 569px;
-		    background-color: rgba(28,9,157,.84);
-		    z-index: 2;
-		    .slow(.6s);
-		    top: 0;
-		    left: 0;
-		    display: flex;
-		    justify-content: center;
-		    align-items: center;
-		    &__point {
-		    	.icon {
-		    		display: block;
-		    		background: url(img/map-point3.png) center no-repeat;
-		    		width: 50px;
-		    		height: 87px;
-		    		@media @retina {
-		    			background: url(img/map-point2@2x.png) center no-repeat;
-		    			background-size: 50px 87px;
-		    		}
-		    	}
-		    	.text {
-		    		margin-top: 56px;
-		    		font: 40px @ff-r;
-		    		color: #fff;
-		    		text-align: center;
-		    		b {
-		    			font-weight: bold;
-		    		}
-		    	}
-		    }
-		}
+		
 	}
 
 }
@@ -82,12 +91,17 @@
 	height: 569px;
 	width: 100%;
 	position: relative;
+	@media @mobile {
+		height: 200px;
+	}
+	@media @tablet {
+		height: 400px;
+	}
 }
 .footer-columns {
 	padding-right: 43px;
 	padding-top: 66px;
 	@media @mobile {
-		padding-bottom: 40px;
 		padding-right: 0;
 	}
 	@media @tablet {
@@ -101,6 +115,9 @@
 		margin-top: 29px;
 		display: flex;
 		justify-content: center;
+		@media @mobile {
+			flex-direction: column;
+		}
 	}
 	&__title {
 		text-align: center;
@@ -109,8 +126,16 @@
 	}
 	&__column {
 		padding: 0 60px;
+		@media @mobile {
+			padding: 0;
+			text-align: center;
+		}
 		&:nth-child(1) {
 			border-right: 2px dotted #7a6f63;
+			@media @mobile {
+				border-right: 0;
+				margin-bottom: 20px;
+			}
 		}
 	}
 	&__address {
@@ -158,6 +183,12 @@
 	margin-bottom: 60px;
 	display: flex;
 	justify-content: center;
+	@media @mobile {
+		margin: 30px 0;
+	}
+	@media @tablet {
+		margin-bottom: 0;
+	}
 	&__text {
 		color: #766b5f;
 		font-size: 16px;

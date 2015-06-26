@@ -2,6 +2,9 @@
 	height: 870px;
 	width: 100%;
 	position: relative;
+	@media @mobile {
+		height: 400px;
+	}
 	&__text-wrap {
 		width: 100%;
 		height: 264px;
@@ -19,6 +22,9 @@
 	z-index: 5;
 	float: right;
 	bottom: 196px;
+	@media @mobile {
+		bottom: 170px;
+	}
 }
 #content-block-9__nav a {
 	display: block;
@@ -48,6 +54,9 @@
 	&__slide {
 		width: 100%;
 		height: 855px;
+		@media @mobile {
+			height: 386px;
+		}
 	}
 	&__logo {
 		background: url(img/mvideo.png) no-repeat;
@@ -67,19 +76,21 @@
 				background: url(img/mvideo@2x.png) no-repeat;
 				background-size: 214px 87px;
 		}
+		@media @mobile {
+			top: 46px;
+		}
 	}
 	&__text {
 		color: #fff;
 		width: 880px;
-		
 		text-align: center;
 		align-self: flex-end;
 		z-index: 3;
 		padding-bottom: 100px;
 		@media @mobile {
-			font-size: 20px;
+			font-size: 12px;
+			padding-bottom: 30px;
 		}
-		
 		@media @tablet {
 			font-size: 20px;
 		}
@@ -94,6 +105,9 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
+	@media @mobile {
+		height: 400px;
+	}
 	&::before {
 	    content: '';
 	    display: block;
@@ -106,6 +120,9 @@
 	    bottom: 0;
 	    z-index: 2;
 	    left: 0;
+	    @media @mobile {
+	    	height: 200px;
+	    }
 	}
 	&--1 {
 		background: url(img/promo.jpg) no-repeat center;

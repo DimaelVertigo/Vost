@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 
 	// Parallax
-	$('.parallax-layer').parallax({
-		mouseport: $(".jumbotron"),
-	});
+	// $('.parallax-layer').parallax({
+	// 	mouseport: $(".jumbotron"),
+	// });
 
 	// Carousel
 	$('.plans_slider').cycle({

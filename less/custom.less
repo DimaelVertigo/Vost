@@ -212,6 +212,9 @@ html, body {
 		    width: 358px;
 		    height: 1px;
 		    margin: 25px auto 0;
+		    @media @mobile {
+		    	width: 100%;
+		    }
 		}
 	}
 	@media @mobile {
@@ -266,6 +269,11 @@ html, body {
 			border-width: 0 150px 34px 150px;
 			margin-left: -150px;
 		}
+		@media @tablet {
+			border-width: 0 300px 54px 300px;
+			margin-left: -300px;
+			bottom: -1px;
+		}
 	}
 	&--blue {
 	    border-color: #1d099d transparent transparent transparent;
@@ -280,9 +288,11 @@ html, body {
     height: 1px;
     &--content-block-4 {
 	    margin: 25px auto 0;
+	    @media @mobile {
+	    	width: 100%;
+	    }
     }
     &--content-block-5 {
-		
 		@media @mobile {
 			display: none;
 		}
@@ -349,6 +359,11 @@ html, body {
 		top: -86px;
 		left: 50%;
 		height: 579px;
+		@media @mobile {
+			top: -28px;
+			left: 50%;
+			height: 258px;
+		}
 	}
 }
 
